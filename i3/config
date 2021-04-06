@@ -125,8 +125,8 @@ assign [class="KeePassXC"] $ws9
 assign [class="Virt-manager"] $ws10
 assign [class="virt-manager"] $ws10
 
-bindsym $mod+c [class="^Google-chrome" instance="^notion"] scratchpad show
-for_window [class="^Google-chrome" instance="^notion"] floating enable, move scratchpad, scratchpad show
+bindsym $mod+c [class="Google-chrome" instance="notion.so"] scratchpad show
+for_window [class="Google-chrome" instance="notion.so"] floating enable, move scratchpad, scratchpad show
 
 bindsym $mod+n [class="^Google-chrome" instance="^outlook"] scratchpad show
 for_window [class="^Google-chrome" instance="^outlook"] floating enable, move scratchpad, scratchpad show
