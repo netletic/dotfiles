@@ -7,13 +7,14 @@ alias gc='git commit'
 alias gp='git push'
 alias d='dirs -v'
 for index ({1..9}) alias "$index"="cd +${index}"; unset index
-
+alias ip='ip --color'
+alias clip='xclip -selection clipboard'
+alias less='less -R'
 
 alias lt='ls -lrth'
 alias kindle='xdg-open https://read.amazon.com/notebook'
-alias pulse='sudo openconnect --config=/home/timmerj/pulse/config https://vrtvpn.vrt.be/external'
-alias sshold='ssh -o KexAlgorithms=diffie-hellman-group1-sha1 -o HostKeyAlgorithms=+ssh-dss'
 alias random24='tr -dc a-z0-9 </dev/urandom | head -c 24 | xsel -ib'
+alias random='openssl rand -base64 32'
 
 #openssl
 alias csr='openssl req -text -noout -verify -in'
@@ -21,15 +22,16 @@ alias csr='openssl req -text -noout -verify -in'
 # User specific aliases and functions
 alias exalt='exa --tree -l -snew'
 alias exatl='exa --tree -l'
+alias vi='nvim'
 
 #ansible
 alias apb='python $(which ansible-playbook)'
-alias ayaml='export ANSIBLE_STDOUT_CALLBACK=yaml'
-alias ajson='export ANSIBLE_STDOUT_CALLBACK=json'
-alias adef='unset ANSIBLE_STDOUT_CALLBACK'
+
+#terraform
+alias tf='terraform'
 
 #python
-alias ae='source venv/bin/activate'
+alias ae='. venv/bin/activate'
 
 #pytest
 alias cov='pytest --cov-report term-missing --cov="."'

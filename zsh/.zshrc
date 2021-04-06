@@ -46,8 +46,6 @@ source $DOTFILES/zsh/scripts.sh
 
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-#pipx
-
 #virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/projects
