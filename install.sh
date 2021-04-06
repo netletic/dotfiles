@@ -13,8 +13,8 @@ ln -sf "$HOME/dotfiles/nvim/init.vim" "$HOME/.config/nvim"
 # Fonts #
 #########
 
-#mkdir -p "$XDG_DATA_HOME"
-#cp -rf "$DOTFILES/fonts" "$XDG_DATA_HOME"
+mkdir -p "$XDG_DATA_HOME"
+cp -rf "$DOTFILES/fonts" "$XDG_DATA_HOME"
 
 #######
 # Zsh #
