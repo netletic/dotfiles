@@ -38,3 +38,8 @@ ln -sf "$HOME/dotfiles/bash/.bash_profile" "$HOME"
 # i3wm #
 ########
 ln -sf "$HOME/dotfiles/i3/config" "$HOME/.config/i3"
+
+#######
+# Git #
+#######
+ln -sf "$HOME/dotfiles/git/.gitconfig" "$HOME"
