@@ -1,12 +1,11 @@
 # useful
-alias brc='vim ~/.bashrc'
+alias brc='nvim ~/.bashrc'
 alias sbrc='source ~/.bashrc'
 
 # apps
 alias kindle='xdg-open https://read.amazon.com/notebook'
 
 # random
-alias sshold='ssh -o KexAlgorithms=diffie-hellman-group1-sha1 -o HostKeyAlgorithms=+ssh-dss'
 alias random24='tr -dc a-z0-9 </dev/urandom | head -c 24 | xsel -ib'
 alias random32='openssl rand -base64 32'
 
