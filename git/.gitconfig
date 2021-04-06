@@ -1,0 +1,13 @@
+[user]
+	email = netletic@gmail.com
+	name = netletic
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[color]
+	ui = auto
+[merge]
+	conflictstyle = diff3
+[core]
+	editor = nvim
