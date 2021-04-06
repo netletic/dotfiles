@@ -33,3 +33,8 @@ ln -sf "$HOME/dotfiles/zsh/external" "$HOME/.config/zsh"
 ln -sf "$HOME/dotfiles/bash/.bashrc" "$HOME"
 ln -sf "$HOME/dotfiles/bash/.bash_aliases" "$HOME"
 ln -sf "$HOME/dotfiles/bash/.bash_profile" "$HOME"
+
+########
+# i3wm #
+########
+ln -sf "$HOME/dotfiles/i3/config" "$HOME/.config/i3"
