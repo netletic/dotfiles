@@ -26,11 +26,11 @@ alias ip='ip --color'
 alias kali='sudo docker run -ti kali /bin/bash'
 
 # git
-alias gitst='git status'
 alias ga='git add'
 alias gc='git commit'
 alias gp='git push'
-alias gitlog='git log --graph --decorate --all'
+alias gs='git status'
+alias gl='git log --graph --decorate --all'
 
 # python
 alias pyt='pytest'

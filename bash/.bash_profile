@@ -31,3 +31,5 @@ PATH=$PATH:$HOME/.local/bin:$HOME/bin
 TERM=xterm-256color 
 export PATH
 export TERM
+
+export PATH="$HOME/.poetry/bin:$PATH"

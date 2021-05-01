@@ -126,19 +126,13 @@ assign [class="Virt-manager"] $ws10
 assign [class="virt-manager"] $ws10
 
 bindsym $mod+c [class="Google-chrome" instance="notion.so"] scratchpad show
+bindsym $mod+f exec urxvt -e ranger
+bindsym $mod+p exec arandr
+bindsym $mod+Shift+n exec leafpad
+bindsym $mod+Print --release exec --no-startup-id flameshot gui
+
+# floating windows
 for_window [class="Google-chrome" instance="notion.so"] floating enable, move scratchpad, scratchpad show
-
-bindsym $mod+n [class="^Google-chrome" instance="^outlook"] scratchpad show
-for_window [class="^Google-chrome" instance="^outlook"] floating enable, move scratchpad, scratchpad show
-
-# Terminal scratchpad
-for_window [instance="urxvt_scratchad"] move to scratchpad, border none
-bindsym $mod+Shift+t [instance="urxvt_scratchpad"] scratchpad show
-exec urxvtc -name urxvt_scratchpad
-
-# floating pop up automatically
-#for_window [window_role="pop-up"] floating enable
-#for_window [window_role="task_dialog"] floating enable
 for_window [class="Arandr"] floating enable
 for_window [class="Pavucontrol"] floating enable
 
@@ -226,19 +220,15 @@ for_window [title="Microsoft Teams Notification"] floating enable
 # Rofi
 bindsym $mod+d exec rofi -show run
 bindsym $mod+x exec rofi -show ssh
-bindsym $mod+p exec ~/rofi-scripts/rofi-surfraw/rofi-surfraw
-bindsym $mod+f exec rofi -show find -modi find:~/.local/share/rofi/finder.sh
 exec compton -f
-bindsym $mod+shift+p exec ~/rofi-scripts/monitor_layout.sh
-#bindsym $mod+r exec rofi -modi "fb:~/rofi-scripts/mode-scripts/rofi-file-browser.sh" -show fb
 
+# wallpaper
 exec feh --bg-scale ~/Pictures/bg-samuel-beckett.jpeg
 
 # start apps
 exec notion
 exec brave-browser
-exec keepassxc
-exec thunar
+exec redshift -l 50.8:4.3 -t 5700:3600 -m randr
 
 # mouse speed
 exec xinput --set-prop 10 'libinput Accel Speed' 1
