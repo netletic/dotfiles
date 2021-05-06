@@ -128,6 +128,7 @@ assign [class="virt-manager"] $ws10
 bindsym $mod+c [class="Google-chrome" instance="notion.so"] scratchpad show
 bindsym $mod+f exec urxvt -e ranger
 bindsym $mod+p exec arandr
+bindsym $mod+Shift+p exec pavucontrol
 bindsym $mod+Shift+n exec leafpad
 bindsym $mod+Print --release exec --no-startup-id flameshot gui
 
