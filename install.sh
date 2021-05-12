@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#######
+# X11 #
+#######
+ln -sf "$HOME/dotfiles/X11/.Xresources" "$HOME"
+
 ########
 # nvim #
 ########
