@@ -15,7 +15,8 @@ set undodir=$HOME/.config/nvim/undo
 set undolevels=10000
 set undoreload=10000
 
-set number
+" hybrid line numbers
+set number relativenumber
 
 " use 4 spaces instead of tab ()
 " copy indent from current line when starting a new line
