@@ -13,10 +13,8 @@ alias random32='openssl rand -base64 32'
 alias csr='openssl req -text -noout -verify -in'
 
 # user specific aliases and functions
-alias exalt='exa --tree -l -snew'
-alias exatl='exa --tree -l'
-alias ll='ls -lah'
-alias lt='ls -lrth'
+alias ll='exa --all --long'
+alias lt='exa --all --long -snew'
 alias vi='nvim'
 alias vim='nvim'
 alias clip='xclip -selection clipboard'
@@ -40,8 +38,6 @@ alias cov='pytest --cov-report term-missing --cov="."'
 # ansible
 alias apb='python $(which ansible-playbook)'
 
-# terraform
-alias tf='terraform'
 
 # pinknoise
 alias playunderwater='play -c2 -n synth whitenoise band -n 100 24 band -n 300 100 gain +20'
