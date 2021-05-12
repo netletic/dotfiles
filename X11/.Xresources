@@ -35,15 +35,13 @@ Xft.hintstyle:              hintslight
 !-------------------------------------------------------------------------------
 
 URxvt.depth:                32
-URxvt.background:	    [95]#002b36
+URxvt.background:	        002b36
 URxvt.geometry:             90x30
 URxvt.transparent:          false
 URxvt.fading:               0
-! URxvt.urgentOnBell:         true
-! URxvt.visualBell:           true
 URxvt.loginShell:           true
 URxvt.saveLines:            32768
-URxvt.borderLess:	    false
+URxvt.borderLess:	        false
 URxvt.internalBorder:       4
 URxvt.externalBorder:	    0
 URxvt.lineSpace:            0
