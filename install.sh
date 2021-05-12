@@ -43,3 +43,11 @@ ln -sf "$HOME/dotfiles/i3/config" "$HOME/.config/i3"
 # Git #
 #######
 ln -sf "$HOME/dotfiles/git/.gitconfig" "$HOME"
+
+
+#############
+# Flameshot #
+#############
+mkdir -p "$HOME/.config/flameshot"
+mkdir -p "$HOME/screenshots"
+ln -sf "$HOME/dotfiles/flameshot/flameshot.ini" "$HOME/.config/flameshot.ini"
