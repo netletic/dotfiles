@@ -55,4 +55,4 @@ ln -sf "$HOME/dotfiles/git/.gitconfig" "$HOME"
 #############
 mkdir -p "$HOME/.config/flameshot"
 mkdir -p "$HOME/screenshots"
-ln -sf "$HOME/dotfiles/flameshot/flameshot.ini" "$HOME/.config/flameshot.ini"
+ln -sf "$HOME/dotfiles/flameshot/flameshot.ini" "$HOME/.config/flameshot/flameshot.ini"
