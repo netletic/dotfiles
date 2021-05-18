@@ -217,7 +217,7 @@ bindsym $mod+x exec rofi -show ssh
 exec compton -f
 
 # wallpaper
-exec feh --bg-scale ~/Pictures/bg-samuel-beckett.jpeg
+exec feh --bg-tile $HOME/.config/i3/midnight-blue.png
 
 # start apps
 exec notion

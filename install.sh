@@ -42,7 +42,8 @@ ln -sf "$HOME/dotfiles/bash/.bash_profile" "$HOME"
 ########
 # i3wm #
 ########
-ln -sf "$HOME/dotfiles/i3/config" "$HOME/.config/i3"
+ln -sf "$HOME/dotfiles/i3/config" "$HOME/.config/i3/config"
+ln -sf "$HOME/dotfiles/i3/midnight-blue.png" "$HOME/.config/i3/midnight-blue.png"
 
 #######
 # Git #
