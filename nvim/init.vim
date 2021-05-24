@@ -1,8 +1,20 @@
+" y u make noise
+set noerrorbells
+
 " paste directly from OS clipboard
 set clipboard+=unnamedplus
 
 " no swap file
 set noswapfile
+set nobackup
+
+" quality of life
+set colorcolumn=80
+highlight ColorColumn ctermbg=0 guibg=lightgrey
+set scrolloff=8
+set cmdheight=1
+set nowrap
+set nohlsearch
 
 " undo and redo saved in files
 set undofile
