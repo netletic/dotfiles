@@ -22,3 +22,4 @@ export PROJECT_HOME=$HOME/projects
 export VIRTUALENVWRAPPER_PYTHON=$HOME/.local/pipx/venvs/virtualenvwrapper/bin/python
 export VIRTUALENVWRAPPER_VIRTUALENV=$HOME/.local/pipx/venvs/virtualenvwrapper/bin/virtualenv
 source $HOME/.local/pipx/venvs/virtualenvwrapper/bin/virtualenvwrapper.sh
+source <(kubectl completion bash | sed s/kubectl/k/g)

@@ -38,6 +38,9 @@ alias cov='pytest --cov-report term-missing --cov="."'
 # ansible
 alias apb='python $(which ansible-playbook)'
 
+# kubernetes
+alias k='microk8s kubectl'
+alias mkctl='microk8s kubectl'
 
 # pinknoise
 alias playunderwater='play -c2 -n synth whitenoise band -n 100 24 band -n 300 100 gain +20'
