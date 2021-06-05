@@ -41,3 +41,14 @@ noremap <Up> <Nop>
 noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
+
+" plugins
+call plug#begin("$XDG_CONFIG_HOME/nvim/plugged")
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
+Plug 'vim-scripts/ReplaceWithRegister'
+Plug 'kana/vim-textobj-user'
+Plug 'kana/vim-textobj-indent'
+Plug 'kana/vim-textobj-entire'
+Plug 'kana/vim-textobj-line'
+call plug#end()
